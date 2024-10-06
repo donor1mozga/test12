@@ -1,14 +1,14 @@
 import org.testng.annotations.Test;
 
-import static com.codeborne.selenide.Selenide.open;
-import static com.codeborne.selenide.Selenide.sleep;
+import static com.codeborne.selenide.Selenide.*;
 
 public class SecondTest {
 
     @Test
     public void mainTwo() {
         System.out.println("Finished test");
-        open("https://www.ctrs.com.ua/");
+        open("https://doctorpro.pl/lodz");
+        System.out.println(getUserAgent());
         sleep(5000);
     }
 }
