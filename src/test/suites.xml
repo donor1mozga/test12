@@ -7,8 +7,8 @@
 
     <test name="Tests">
         <classes>
-            <class name="FirstTest"/>
-            <class name="SecondTest"/>
+            <class name="ui.FirstTest"/>
+            <class name="ui.SecondTest"/>
         </classes>
     </test>
 </suite>

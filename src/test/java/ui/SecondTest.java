@@ -1,3 +1,5 @@
+package ui;
+
 import org.testng.annotations.Test;
 
 import static com.codeborne.selenide.Selenide.*;
