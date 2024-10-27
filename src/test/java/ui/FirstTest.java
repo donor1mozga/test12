@@ -13,5 +13,6 @@ public class FirstTest {
         open("https://www.mediaexpert.pl/");
         System.out.println(getUserAgent());
         sleep(5000);
+        closeWebDriver();
     }
 }
