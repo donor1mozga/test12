@@ -11,4 +11,10 @@
             <class name="ui.SecondTest"/>
         </classes>
     </test>
+
+    <test name="RestTests">
+        <classes>
+            <class name="rest.restTest"/>
+        </classes>
+    </test>
 </suite>
